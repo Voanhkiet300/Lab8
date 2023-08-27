@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://wallpaperaccess.com/full/2077812.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    backdrop-filter: blur(3px);
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.container {
+    background-image: url("https://media.istockphoto.com/id/1329537433/vector/black-fungus-disease-vector-illustration-design-coronavirus-sign-background-black-fungus-new.jpg?s=612x612&w=0&k=20&c=GNQxeAjJh3N7h_doHmCHYXsiuwc7SUWSQQZUaNsgkQY=");
+    width: 280px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.5);
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #aaa;
+    padding: 5px 0;
+}
+
+.top input {
+    background-color: transparent;
+    border: none;
+    padding: 0 8px;
+    color: #fff;
+}
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top input:focus {
+    outline: none;
+}
+
+.center {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.center .location {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.center>* {
+    margin-bottom: 8px;
+}
+
+.bottom {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    padding: 12px 14px;
+    border-top: 1px solid #fff;
+}
+
+.bottom>div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.bottom>div>p {
+    padding: 2px 0;
+}
+
+.bottom p {
+    margin-bottom: 4px;
+}
+
+.temperature {
+    font-size: 64px;
+    font-weight: 500;
+}
